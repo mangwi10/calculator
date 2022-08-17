@@ -17,6 +17,7 @@ body {
 
 .flex-container-row {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -38,7 +39,7 @@ body {
     width: 100%;
     padding: 10px 20px;
     background-color: #333;
-    border: 1 solid black;
+    border: 1px solid black;
     font-size: 2em;
 }
 
@@ -58,3 +59,9 @@ body {
 .button:hover {
     font-weight: bold;
 }
+
+@media screen and (max-width: 450px) {
+    .button {
+        padding: 10px;
+    }
+ }
