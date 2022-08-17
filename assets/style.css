@@ -58,6 +58,14 @@ body {
 
 .button:hover {
     font-weight: bold;
+    background: rgb(171, 171, 171);
+    transition: 0.3s;
+}
+
+.operator:hover,
+.negative:hover,
+.equals:hover {
+    background: rgb(253, 183, 53);
 }
 
 @media screen and (max-width: 450px) {
